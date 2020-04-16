@@ -1,0 +1,9 @@
+{
+  "draft": true,
+  "date": "2020-03-25T13:11:21.618Z",
+  "title": "Test Blog",
+  "category": ["Coding"],
+  "description": "Short description",
+  "body": "this is body\n\n\n\n```java\nSystem.Out.printLine(\"Hello World\")\n```\n\n\n\n> Hard work beats talent when talent fails to work hard.\n>\n> ~Tim Notke\n\n```css\n.container{\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n@keyframes going {\n  from {\n    transform: translateX(0);\n  }\n  to {\n    transform: translateX(-50px);\n    opacity: 0;\n  }\n}\n```",
+  "thumbnail": "/img/web-dev.svg"
+}
