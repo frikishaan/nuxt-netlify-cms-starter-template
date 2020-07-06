@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="386" src="https://raw.githubusercontent.com/sheikh005/-nuxt-netlify-cms-starter-template/master/static/img/nuxt-netlify-cms.png" alt="Nuxt Netlify Logo" />
+  <img width="386" src="https://raw.githubusercontent.com/sheikh005/nuxt-netlify-cms-starter-template/master/static/img/nuxt-netlify-cms.png" alt="Nuxt Netlify Logo" />
 </p>
 
 # Nuxt.js + Netlify CMS starter template
