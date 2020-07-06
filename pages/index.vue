@@ -15,29 +15,11 @@
 
 <script>
 export default {
-  data() {
-    return {
-      blogPosts: []
-    };
+  computed: {
+    blogPosts() {
+      return this.$store.state.blogPosts;
+    },
   },
-
-  // Fetching all posts
-  async asyncData({ error, params, payload }) {
-    if (payload) return { blogPost: payload };
-    else {
-      let files = await require.context(
-        "~/assets/content/blog/",
-        false,
-        /\.json$/
-      );
-      let blogPosts = files.keys().map(key => {
-        let res = files(key);
-        res.slug = key.slice(2, -5);
-        return res;
-      });
-      return { blogPosts };
-    }
-  }
 };
 </script>
 
