@@ -6,6 +6,8 @@
 
 This is a starter files for creating Nuxt.js based blog using [Netlify CMS](https://www.netlifycms.org/).
 
+Demo is available [here](https://infallible-turing-e3d402.netlify.app/).
+
 ## Build Setup
 
 ```bash
