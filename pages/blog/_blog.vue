@@ -10,16 +10,12 @@
 <script>
 export default {
   // Fetching Single BlogPost
-  async asyncData({ error, params, payload }) {
+  async asyncData({ params, payload }) {
     if (payload) return { blogPost: payload };
     else
-      try {
-        return {
-          blogPost: await require(`~/assets/content/blog/${params.blog}.json`)
-        };
-      } catch (e) {
-        error({ statusCode: 404, message: e.message });
-      }
+      return {
+        blogPost: await require(`~/assets/content/blog/${params.blog}.json`)
+      };
   }
 };
 </script>
