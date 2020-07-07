@@ -29,4 +29,8 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+### Tutorial
+
+For detailed explanation on how things work, check out my blog on [How I created my blog using Nuxt.js and Netlify CMS](https://frikishaan.xyz/blog/creating-a-blog-with-nuxtjs-and-netlifycms-1?utm_source=github&utm_medium=tutorial_link&utm_campaign=starter_repo)
+
+Reference - [Nuxt.js docs](https://www.netlifycms.org/docs/nuxt/).
