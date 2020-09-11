@@ -31,6 +31,6 @@ $ npm run generate
 
 ### Tutorial
 
-For detailed explanation on how things work, check out my blog on [How I created my blog using Nuxt.js and Netlify CMS](https://frikishaan.xyz/blog/creating-a-blog-with-nuxtjs-and-netlifycms-1?utm_source=github&utm_medium=tutorial_link&utm_campaign=starter_repo)
+For detailed explanation on how things work, check out my blog on [How I created my blog using Nuxt.js and Netlify CMS](https://frikishaan.com/blog/creating-a-blog-with-nuxtjs-and-netlifycms-1)
 
 Reference - [Nuxt.js docs](https://www.netlifycms.org/docs/nuxt/).
